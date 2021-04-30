@@ -1,0 +1,49 @@
+/******************
+Kvolik's CSS work flow
+|| <- sections
+
+1- custom font
+2- custom tags
+3- predefined tags
+ └ from the most general tag to the most specific ones
+4- classes
+ └ class definition then the elements inside it
+5- ids
+******************/
+/* || custom tag */
+stand{
+	/* makes text in this tag azure */
+	color: #007fff;
+}
+/* || predefined tags*/
+body{
+	/* makes page fill whole screen */
+	margin: 0px;
+	padding: 0px;
+}
+
+.displaySAB{
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	width: 15%;
+	background-image: linear-gradient(90deg, rgba(0, 127, 255, 1), rgba(0, 127, 255, 0));
+}
+.displaySAB p{
+	position: absolute;
+	text-align: center;
+	top: 9%;
+}
+.info{
+	position: absolute;
+	top: -10%;
+	right: 0px;
+	width: 75%;
+	padding: 5em;
+	float: right;
+}
+.info p, .info h2{
+	line-height: 2;
+	text-align: left;
+}
