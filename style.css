@@ -23,7 +23,7 @@ body{
 	margin: 0px;
 }
 /* || Menu*/
-.displaySAB{
+.navMenu{
 	position: fixed;
 	display: flex;
 	justify-content: center;
@@ -32,7 +32,7 @@ body{
 	background-image: linear-gradient(90deg, rgba(0, 127, 255, 1), rgba(0, 127, 255, 0));
 }
 /* || Menu p tag*/
-.displaySAB p{
+.navMenu p{
 	position: absolute;
 	text-align: center;
 	top: 9%;
@@ -46,8 +46,11 @@ body{
 	padding: 5em;
 	float: right;
 }
-/* || Dont do this, split them for more control*/
-.info p, .info h2{
+.info h2{
+	line-height: 2;
+	text-align: left;
+}
+.info p {
 	line-height: 2;
 	text-align: left;
 }
